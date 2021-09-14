@@ -1,0 +1,34 @@
+{
+  "sectors": [
+    {
+      "id": 1,
+      "name": "Marketing"
+    },
+      {
+      "id": 2,
+      "name": "QA"
+    },
+      {
+      "id": 3,
+      "name": "Power BI"
+    },
+    {
+      "id": 3,
+      "name": "Financeiro"
+    }
+  ],
+  "options": [
+    {
+      "id": 1,
+      "title": "Marketing"
+    },
+      {
+      "id": 2,
+      "title": "QA"
+    },
+      {
+      "id": 3,
+      "title": "Power BI"
+    }
+  ]
+}
