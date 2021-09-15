@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Pie } from 'react-chartjs-2';
 
+import { ToastContainer, toast } from 'react-toastify';
+
+import Swal from 'sweetalert2'
+
 import api from './services/api';
 
 const data = {
@@ -44,6 +48,20 @@ function App() {
   }
 
 
+  const notify = () => {
+    toast.success("Wow so easy !", { autoClose: 10000, position: 'top-center' })
+    toast.error("Deu ruim")
+    toast.warn("Sou aviso")
+  };
+
+  const notifySwal = (message) => {
+    Swal.fire({
+      icon: 'info',
+      title: 'Mensagem',
+      text: message,
+      footer: 'Criado por Zap System'
+    })
+  }
   useEffect(() => {
     handleGetOptionsSectors();
   }, []);
@@ -66,7 +84,28 @@ function App() {
           {options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
 
+{
+  isVisible 
+}
+
+        <table border="1" style={{ width: '100%' }}>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Douglas</td>
+              <td><button onClick={() => notifySwal('Lorem impsiienewirkf wern34ir3nrei3rn inirn3ri3rn 3irn3r i3rn3ir')}>Ver nome</button></td>
+            </tr>
+          </tbody>
+        </table>
+
       </div>
+
+      <ToastContainer />
     </>
   );
 }

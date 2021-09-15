@@ -2,7 +2,7 @@
   "sectors": [
     {
       "id": 1,
-      "name": "Marketing"
+      "nome": "Marketing"
     },
       {
       "id": 2,
@@ -13,7 +13,7 @@
       "name": "Power BI"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Financeiro"
     }
   ],
