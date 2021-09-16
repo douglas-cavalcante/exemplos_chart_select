@@ -1,20 +1,32 @@
 {
   "sectors": [
     {
-      "id": 1,
-      "nome": "Marketing"
-    },
-      {
-      "id": 2,
-      "name": "QA"
-    },
-      {
-      "id": 3,
-      "name": "Power BI"
+      "name": "teste",
+      "id": 1
     },
     {
-      "id": 4,
-      "name": "Financeiro"
+      "name": "teste 12",
+      "id": 2
+    },
+    {
+      "name": "teste",
+      "id": 3
+    },
+    {
+      "name": "",
+      "id": 4
+    },
+    {
+      "name": "teste",
+      "id": 5
+    },
+    {
+      "name": "teste",
+      "id": 6
+    },
+    {
+      "name": "teste 12",
+      "id": 7
     }
   ],
   "options": [
@@ -22,11 +34,11 @@
       "id": 1,
       "title": "Marketing"
     },
-      {
+    {
       "id": 2,
       "title": "QA"
     },
-      {
+    {
       "id": 3,
       "title": "Power BI"
     }

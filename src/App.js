@@ -84,10 +84,6 @@ function App() {
           {options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
         </select>
 
-{
-  isVisible 
-}
-
         <table border="1" style={{ width: '100%' }}>
           <thead>
             <tr>
